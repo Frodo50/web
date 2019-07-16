@@ -1,7 +1,7 @@
 From nginx:latest
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./ /usr/share/nginx/html/frodo-web3
+COPY ./ /usr/share/nginx/html/web
 
 EXPOSE 80
 
